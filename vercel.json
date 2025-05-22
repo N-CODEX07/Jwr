@@ -3,14 +3,14 @@
   "framework": null,
   "builds": [
     {
-      "src": "app.py",
+      "src": "fix.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/app.py"
+      "dest": "/fix.py"
     }
   ]
 }
